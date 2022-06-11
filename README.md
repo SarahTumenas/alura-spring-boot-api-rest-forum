@@ -7,7 +7,7 @@
 - Estilo arquitetural REST
 - Utilizando o Spring Data e Bean Validation
 
-## FTecnologias Utilizadas:
+## Tecnologias Utilizadas:
 - Banco de dados H2 com Spring Boot
 - Java 8
 - Maven
