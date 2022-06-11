@@ -6,6 +6,11 @@
 - Desenvolvimento web com ajuda do Spring Devtools
 - Estilo arquitetural REST
 - Utilizando o Spring Data e Bean Validation
+- Paginação e ordenação dos resultados da API
+- Melhorando desempenho com Spring Cache
+- Protegendo a API com Spring Security e JWT
+- Monitorando os endpoints com Spring Boot Actuator e Admin
+- Documentação da API com Swagger
 
 ## Tecnologias Utilizadas:
 - Banco de dados H2 com Spring Boot
@@ -14,3 +19,7 @@
 - Spring Web
 - Spring Data JPA
 - Postman
+- Spring Cache
+- Spring Security
+- Spring Boot Actuator
+- SpringFox Swagger
