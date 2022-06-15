@@ -9,7 +9,7 @@
 - Paginação e ordenação dos resultados da API
 - Melhorando desempenho com Spring Cache
 - Protegendo a API com Spring Security e JWT
-- Monitorando os endpoints com Spring Boot Actuator e Admin
+- Monitorando os endpoints com Spring Boot Actuator e Admin com o projeto disponível na branch [spring-boot-admin] (https://github.com/SarahTumenas/alura-spring-boot-api-rest-forum/tree/spring-boot-admin)
 - Documentação da API com Swagger
 
 ## Tecnologias Utilizadas:
