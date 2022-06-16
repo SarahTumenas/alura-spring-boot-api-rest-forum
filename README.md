@@ -11,6 +11,13 @@
 - Protegendo a API com Spring Security e JWT
 - Monitorando os endpoints com Spring Boot Actuator e Admin com o projeto disponível na branch (https://github.com/SarahTumenas/alura-spring-boot-api-rest-forum/tree/spring-boot-admin)
 - Documentação da API com Swagger
+- Atualização da versão do Spring Boot da API
+- Proteção de endpoints baseados em perfil de usuário
+- Separação de configurações em Profiles
+- Testes automatizados de componentes do Spring Boot
+- Simulação de deploy da API localmente
+- Utilização do Docker na API
+- Deploy da API no Heroku
 
 ## Tecnologias Utilizadas:
 - Banco de dados H2 com Spring Boot
@@ -23,3 +30,7 @@
 - Spring Security
 - Spring Boot Actuator
 - SpringFox Swagger
+- Spring profiles
+- Testes automatizados com Spring Boot
+- Docker
+- Heroku
