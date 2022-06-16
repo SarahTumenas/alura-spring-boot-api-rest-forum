@@ -19,7 +19,7 @@
     - para gerar o jar da aplicação no windows: ./mvnw clean install(na primeira vez) ou ./mvnw clean package(se já tiver o jar)
     - para acessar o jar na pasta target criada:  cd target/
     - para executar o jar:  java -jar forum-0.0.1-SNAPSHOT.jar
-    - para alterar o nome do pacote  jar, no pom após build <finalName>forum</finalName>
+    - para alterar o nome do pacote  jar, no pom após build < finalName > forum </ finalName>
     - para o profile de prod: passando as informações do banco no terminal (
   export FORUM_DATABASE_URL=jdbc:h2:mem:alura-forum
   export FORUM_DATABASE_USERNAME=sa 
