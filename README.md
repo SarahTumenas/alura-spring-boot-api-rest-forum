@@ -33,6 +33,14 @@
     export FORUM_DATABASE_PASSWORD=  
     export FORUM_JWT_SECRET=123456)
 - para executar: java -jar -Dspring.profiles.active=prod forum.jar
+## Configurações para Docker na aplicação:
+- criar o arquivo Dockerfile na pasta do projeto
+- executar no diretorio raiz do projeto: docker build -t alura/forum .
+- para verificar se a imagem foi gerada: docker image list
+- para executar a imagem: docker run alura/forum
+- para executar a imagem com o profile definido:
+  docker run -p 8080:8080 -e SPRING_PROFILES_ACTIVE='prod' -e FORUM_DATABASE_URL='jdbc:h2:mem:alura-forum' -e FORUM_DATABASE_USERNAME='sa' -e FORUM_DATABASE_PASSWORD='' -e FORUM_JWT_SECRET='123456' alura/forum
+
 
 ## Tecnologias Utilizadas:
 - Banco de dados H2 com Spring Boot
