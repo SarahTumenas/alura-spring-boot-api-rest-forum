@@ -16,17 +16,22 @@
 - Separação de configurações em Profiles
 - Testes automatizados de componentes do Spring Boot
 - Simulação de deploy da API localmente:
-    - para gerar o jar da aplicação no windows: ./mvnw clean install(na primeira vez) ou ./mvnw clean package(se já tiver o jar)
-    - para acessar o jar na pasta target criada:  cd target/
-    - para executar o jar:  java -jar forum-0.0.1-SNAPSHOT.jar
-    - para alterar o nome do pacote  jar, no pom após build < finalName > forum </ finalName>
-    - para o profile de prod: passando as informações do banco no terminal (
-  export FORUM_DATABASE_URL=jdbc:h2:mem:alura-forum
-  export FORUM_DATABASE_USERNAME=sa 
-  export FORUM_DATABASE_PASSWORD=  
-  export FORUM_JWT_SECRET=123456); depois java -jar -Dspring.profiles.active=prod forum.jar
 - Utilização do Docker na API
 - Deploy da API no Heroku
+## Visualização do Spring Boot Actuator na aplicação:
+(http://localhost:8081)
+## Visualização do Swagger na aplicação:
+(http://localhost:8080/swagger-ui.html)
+## Configurações para deploy local na aplicação:
+- para gerar o jar da aplicação no windows: ./mvnw clean install(na primeira vez) ou ./mvnw clean package(se já tiver o jar)
+- para acessar o jar na pasta target criada:  cd target/
+- para executar o jar:  java -jar forum-0.0.1-SNAPSHOT.jar
+- para alterar o nome do pacote  jar, no pom após build < finalName > forum </ finalName>
+- para o profile de prod: passando as informações do banco no terminal (
+    export FORUM_DATABASE_URL=jdbc:h2:mem:alura-forum
+    export FORUM_DATABASE_USERNAME=sa
+    export FORUM_DATABASE_PASSWORD=  
+    export FORUM_JWT_SECRET=123456); depois java -jar -Dspring.profiles.active=prod forum.jar
 
 ## Tecnologias Utilizadas:
 - Banco de dados H2 com Spring Boot
