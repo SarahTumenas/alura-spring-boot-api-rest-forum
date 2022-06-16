@@ -31,7 +31,8 @@
     export FORUM_DATABASE_URL=jdbc:h2:mem:alura-forum
     export FORUM_DATABASE_USERNAME=sa
     export FORUM_DATABASE_PASSWORD=  
-    export FORUM_JWT_SECRET=123456); depois java -jar -Dspring.profiles.active=prod forum.jar
+    export FORUM_JWT_SECRET=123456)
+- para executar: java -jar -Dspring.profiles.active=prod forum.jar
 
 ## Tecnologias Utilizadas:
 - Banco de dados H2 com Spring Boot
