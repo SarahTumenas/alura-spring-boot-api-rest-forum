@@ -15,7 +15,10 @@
 - Proteção de endpoints baseados em perfil de usuário
 - Separação de configurações em Profiles
 - Testes automatizados de componentes do Spring Boot
-- Simulação de deploy da API localmente
+- Simulação de deploy da API localmente:
+    - para gerar o jar da aplicação no windows: ./mvnw clean install
+    - para acessar o jar na pasta target criada:  cd target/
+    - para executar o jar:  java -jar forum-0.0.1-SNAPSHOT.jar
 - Utilização do Docker na API
 - Deploy da API no Heroku
 
